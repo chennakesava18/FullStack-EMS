@@ -17,10 +17,10 @@
 
   /* Button styles */
   .btn-primary {
-    @apply bg-linear-to-r from-indigo-600 text-white px-5 py-2.5 rounded-md text-sm
-    hover:from-bg-indigo-700 hover:to-indiogo-600
+    @apply bg-gradient-to-r from-indigo-600 to-indigo-500 text-white px-5 py-2.5 rounded-md text-sm
+    hover:from-indigo-700 hover:to-indigo-600
     transition-all duration-200
-    shadow-indigo-500/25 
+    shadow-indigo-500/25
     active:scale-[0.98];
   }
 
@@ -63,10 +63,10 @@
    .table-modern tbody td {
     @apply px-6 py-4;
   }
-  .badge{
-    @apply inline-flex items-center px-2.5 py-1 rounded-md text-xs
+  .badge {
+    @apply inline-flex items-center px-2.5 py-1 rounded-md text-xs;
   }
-  .badge-success{
+  .badge-success {
         @apply bg-emerald-50 text-emerald-700 ring-1 ring-emerald-600/10;
 
   }
